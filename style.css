@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: #f9f9f9;
+    line-height: 1.6;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6e00ff;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links .btn {
+    padding: 10px 20px;
+    border: 2px solid #6e00ff;
+    color: #6e00ff;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links .btn:hover {
+    background: #6e00ff;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero-body {
+    text-align: center;
+    margin: 100px auto;
+    padding: 50px;
+  }
+  
+  .hero-body h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .hero-body p {
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  .avatar {
+    margin-top: 30px;
+  }
+  
+  .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #6e00ff;
+  }
+.hero-foot{
+    padding: 0rem 1.5rem;
+}
+.container{
+    margin: auto;
+    position: relative;
+    width: auto;
+}
+.hero-foot img.is-bottom{
+    margin-bottom: -1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+img{
+    height:auto;
+    max-width: 100%;
+}
+.imageAboutPage {
+    width: 100%;
+}
+/* .navbarScroll.navbarDark {
+    background-color: black;
+} */
+
+.navbarScroll.navbarDark {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
